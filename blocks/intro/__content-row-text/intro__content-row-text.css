@@ -1,0 +1,12 @@
+.intro__content-row-text{
+    width: 683px;
+    margin: 0;
+    justify-content: space-between;
+
+    font-family: Inter, Helvetica, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}

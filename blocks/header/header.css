@@ -1,0 +1,44 @@
+@import url('./__language/header__language.css');
+@import url('./__languages/header__languages.css');
+@import url('./__logo/header__logo.css');
+@import url('./__language/_active/header__language_active.css');
+
+.header{
+    position: relative;
+    max-width: 1184px;
+    top: 30px;
+    left: 48px;
+    display: flex;
+    justify-content: flex-start;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .header{
+        max-width: 928px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .header{
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .header{
+        max-width: 343px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .header{
+        max-width: 288px;
+    }
+}
+@media screen and (max-width: 767px){
+    .header{
+        top: 16px;
+    }
+}
+@media screen and (max-width: 1279px){
+    .header{
+        left: 0;
+        margin: auto;
+    }
+}

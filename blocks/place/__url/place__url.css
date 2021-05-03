@@ -1,0 +1,15 @@
+.place__url{
+    font-family: Inter, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .place__url{
+         display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.videos__iframe-duration{
+    margin: 0;
+    position: absolute;
+    top: 165px;
+    left: 30px;
+    z-index: 2;
+
+    font-family: Inter, Helvetica, sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .videos__iframe-duration{
+        top: 125px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 1023px){
+    .videos__iframe-duration{
+        top: 82px;
+        left: 24px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .videos__iframe-duration{
+        top: 80px;
+        left: 16px;
+    }
+}

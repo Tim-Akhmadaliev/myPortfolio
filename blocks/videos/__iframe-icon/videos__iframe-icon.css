@@ -1,0 +1,20 @@
+.videos__iframe-icon{
+    position: absolute;
+    height: 41px;
+    width: 41px;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+@media screen and (min-width: 375px) and (max-width: 1023px){
+    .videos__iframe-icon{
+        top: 24px;
+        left: 24px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .videos__iframe-icon{
+        top: 16px;
+        left: 16px;
+    }
+}

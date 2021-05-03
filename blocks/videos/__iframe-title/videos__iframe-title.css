@@ -1,0 +1,40 @@
+.videos__iframe-title{
+    margin: 0;
+    max-width: 322px;
+    z-index: 2;
+    position: absolute;
+    top: 189px;
+    left: 30px;
+
+    font-family: Inter, Helvetica, sans-serif;;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .videos__iframe-title{
+        top: 149px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 1023px){
+    .videos__iframe-title{
+        max-width: 250px;
+        top: 102px;
+        left: 24px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .videos__iframe-title{
+        max-width: 250px;
+        top: 100px;
+        left: 16px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .videos__iframe-title{
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
